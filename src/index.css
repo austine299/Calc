@@ -1,13 +1,65 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.container{
+  max-width: 100%;
+  min-height: 600px;
+  margin: 0 autos;
+  background-color:#3c1687
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.calcbody{
+  
+  margin-left:40%;
+  padding-top: 10px;
+  height: 350px;
+  width: 300px;
+}
+
+.input{
+  height: 200px;
+  width: 300px;
+  background-color: #6e3dd5;
+  text-align: center;
+  margin-top: 70px;
+  color: #fff;
+  border-radius: 20px 20px 0px 0px;
+}
+.btnbgk{
+  
+  height: 300px;
+  width: 300px;
+  background-color: #fff;
+  text-align: center;
+  margin-top: -20px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+div input{
+  background-color: transparent;
+  border-color: transparent;
+  text-align: center;
+  margin-top: 80px;
+  color: #fff;
+  width: 200;
+  font-size: 15px;
+}
+
+.btnposition{
+  padding: 15px;
+}
+
+button{
+  height: 40px;
+  width: 50px;
+  margin: 6px;
+  border-radius: 15px;
+  border: none;
+}
+
+.resetbtn{
+  background-color: #f8396f;
+  color: #fff;
+}
+
+.equebtn{
+  background-color: green;
+  color: #fff;
 }
